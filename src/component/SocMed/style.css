@@ -1,0 +1,17 @@
+.socmed-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: #f3e8ff;
+  font-size: 1.5rem;
+}
+
+.socmed-container a {
+  color: #6b21a8;
+  transition: color 0.3s ease;
+}
+
+.socmed-container a:hover {
+  color: #9333ea;
+}

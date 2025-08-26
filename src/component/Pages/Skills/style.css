@@ -1,0 +1,61 @@
+.skills-section {
+  padding: 3rem 2rem;
+  background-color: #f8f5fc;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  animation: fadeIn 0.7s ease;
+}
+
+.highlight {
+  color: #a855f7;
+}
+
+.skill-card {
+  width: 80%;
+  background-color: #e9e3f0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.5);
+  border-left: 5px solid #a855f7;
+  transition: 0.7s ease;
+  animation: fadeIn 0.7s ease;
+}
+
+.skill-card h3 {
+  color: #7e22ce;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+  animation: fadeIn 0.7s ease;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000 !important;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: fadeIn 0.7s ease;
+}
+
+.skill-list {
+  padding-left: 1rem;
+  color: #4b5563;
+  animation: fadeIn 0.7s ease;
+}
+
+.skill-list li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+  animation: fadeIn 0.7s ease;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
